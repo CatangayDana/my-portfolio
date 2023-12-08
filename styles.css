@@ -266,6 +266,10 @@ hr.solid {
   transition:0.5s;
 }
 
+.illust-1 img{
+  height: 500px;
+}
+
 #illust-section img{
   width: 100%;
   max-width:350px;
