@@ -144,8 +144,6 @@ a {
 
 .welcome-section-container h1{
   text-align:left;
-  /*padding-left: 10%;
-  padding-right: 10%;*/
   font-size:11rem;
   line-height:1;
   margin: 0 auto;
@@ -154,8 +152,6 @@ a {
 
 .welcome-section-container p{
   text-align: justify;
-  /*padding-left: 10%;
-  padding-right: 10%;*/
   margin: 0 auto;
   font-size:20px;
   font-weight: 500;
@@ -259,7 +255,8 @@ hr.solid {
 
 
 .web-project-container, 
-.figma-section-container, 
+.figma-section-container,
+.figma-prototype-section-container, 
 .illust-section-container,
 .other-section-container,
 .sketchbook-container{
@@ -276,6 +273,7 @@ hr.solid {
 
 .web-project-title, 
 .figma-section-title,
+.figma-prototype-section-title,
 .illust-section-title,
 .other-section-title{
   display: flex;
@@ -285,6 +283,7 @@ hr.solid {
 
 .web-project-container h2, 
 .figma-section-container h2,
+.figma-prototype-section-container h2,
 .illust-section-container h2{
   font-size:20px;
   text-align: center;
@@ -297,7 +296,8 @@ hr.solid {
 }
 
 .web-project-title h1, 
-.figma-section-title h1{
+.figma-section-title h1,
+.figma-prototype-section-title h1{
   text-align: left;
   font-size: 8rem;
   margin-bottom: 10px;
@@ -314,6 +314,7 @@ hr.solid {
 
 .web-project .project-caption, 
 .figma-project .project-caption, 
+.figma-prototype-project .project-caption,
 .illust-1 .project-caption,
 .illust-2 .project-caption,
 .illust-3 .project-caption{
@@ -363,6 +364,7 @@ hr.solid {
 
 .web-project, 
 .figma-project, 
+.figma-prototype-project,
 .illust-1,
 .illust-2,
 .illust-3{
@@ -381,6 +383,7 @@ hr.solid {
 
 .web-project:hover,
 .figma-project:hover,
+.figma-prototype-project:hover,
 .illust-1:hover,
 .illust-2:hover,
 .illust-3:hover{
@@ -393,6 +396,7 @@ hr.solid {
 
 .web-project:hover img, 
 .figma-project:hover img,
+.figma-prototype-project img,
 .illust-2:hover img,
 .illust-3:hover img{
   border:2px solid var(--color5);
@@ -403,7 +407,8 @@ hr.solid {
 
 .web-project:hover h2,
 .figma-project:hover h2, 
-.web-project:hover h3{
+.web-project:hover h3,
+.figma-prototype-project h2{
   transition: 0.5s;
   color:var(--color5);
 } 
