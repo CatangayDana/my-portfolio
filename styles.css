@@ -296,10 +296,15 @@ hr.solid {
 }
 
 .web-project-title h1, 
-.figma-section-title h1,
-.figma-prototype-section-title h1{
+.figma-section-title h1{
   text-align: left;
   font-size: 8rem;
+  margin-bottom: 10px;
+}
+
+.figma-prototype-section-title h1{
+  text-align: left;
+  font-size: 6.5rem;
   margin-bottom: 10px;
 }
 
@@ -452,7 +457,7 @@ hr.solid {
   border-bottom:3px solid var(--color5);
 }
 
-#sketchbook-container .photo-gallery img{
+.sketchbook-container .photo-gallery img{
   width:100%;
   object-fit: cover;
   max-width:300px;
