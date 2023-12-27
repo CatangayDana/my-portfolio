@@ -101,6 +101,7 @@
   {
     border-color: var(--color1);
     background-color: var(--color1);
+      margin-right:30px;
   }
   @media (max-width:440px){
     header{
